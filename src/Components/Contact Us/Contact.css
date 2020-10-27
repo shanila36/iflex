@@ -1,0 +1,66 @@
+.image {
+  position: fixed;
+  left: 30%;
+  bottom: 0;
+  width: 40%;
+  color: white;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  margin-top: 10px;
+}
+.text_body {
+  margin-top: 50px;
+  margin-right: 60px;
+}
+.contact_container {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  left: 25%;
+  justify-content: center;
+  padding: 2%;
+  margin: 3px;
+  text-align: center;
+}
+.contact_row {
+  display: flex;
+}
+.icon {
+  max-width: 40px;
+}
+.image_map {
+  max-width: 450px;
+}
+@media screen and (max-width: 800px) {
+  .contact_container {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    left: 25%;
+    justify-content: center;
+    padding: 2%;
+    margin: 3px;
+    text-align: center;
+  }
+  .image {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 20%;
+    bottom: 0;
+    width: 60%;
+    color: white;
+  }
+  .text_body {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .image_map {
+    max-width: 300px;
+  }
+}

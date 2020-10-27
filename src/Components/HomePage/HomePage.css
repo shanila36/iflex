@@ -1,0 +1,176 @@
+.first_image {
+  width: 100%;
+  margin-top: 1.5%;
+}
+.second_image {
+  width: 100%;
+  margin-top: 1.5%;
+}
+.brand_logos {
+  margin-top: 5%;
+  height: 60px;
+}
+.buy_ads_images {
+  max-width: 380px;
+}
+.third_images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+.third_images_flex1 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-left: 70px;
+  background-color: rgb(255, 255, 255);
+}
+.third_images_flex3 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-right: 70px;
+}
+
+.buy_ads_titles {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bolder;
+  font-size: x-large;
+  color: black;
+}
+.button {
+  justify-self: center;
+}
+.fourth_images {
+  width: 100%;
+  margin-top: 1.5%;
+}
+.home__row_mobile {
+  display: none;
+}
+.home__rows {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2px;
+  size: 5%;
+}
+.product_header_title {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.love_pics {
+  display: flex;
+}
+.love_images {
+  flex: 33.33%;
+  position: relative;
+}
+.love_images_text1 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  color: #000000; /* Grey text */
+  width: 100%; /* Full width */
+  border-bottom: 4px solid rgb(255, 71, 102);
+}
+.love_images_text2 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  color: #000000; /* Grey text */
+  width: 100%; /* Full width */
+  border-bottom: 4px solid rgb(170, 242, 255);
+}
+.love_images_text3 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  color: #000000; /* Grey text */
+  width: 100%; /* Full width */
+  border-bottom: 4px solid rgb(255, 157, 170);
+}
+.love_images_text_header {
+  text-align: center;
+  font-size: 20px;
+  color: #505050;
+  font-weight: 600;
+}
+.love_images_text_body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .first_image {
+    width: 100%;
+    margin-top: 1.5%;
+  }
+  .home__rows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2px;
+    size: 5%;
+  }
+  .second_image {
+    width: 100%;
+    margin-top: 1.5%;
+  }
+  .brand_logos {
+    margin-top: 5%;
+    height: 18px;
+  }
+  .buy_ads_images {
+    max-width: 120px;
+  }
+  .buy_ads_titles {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bolder;
+    font-size: small;
+    color: black;
+  }
+  .fourth_images {
+    width: 100%;
+    margin-top: 1.5%;
+  }
+  .third_images_flex1 {
+    display: grid;
+    justify-content: center;
+
+    align-content: center;
+    margin-left: 0px;
+  }
+  .third_images_flex3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-right: 0px;
+  }
+  .homepage__row {
+    display: none;
+  }
+  .home__row_mobile {
+    display: flex;
+    margin-top: 2px;
+  }
+  .love_pics {
+    display: list-item;
+  }
+  .product_header_title {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}
